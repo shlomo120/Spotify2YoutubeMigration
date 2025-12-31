@@ -21,7 +21,7 @@ def load_config():
             "cookie": ""          
         },
         "test_mode": {
-            "max_songs": 10  # 0 = full list
+            "max_songs": 0  # 0 = full list
         }
     }
     
@@ -278,4 +278,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 #ThankYOU, https://github.com/shlomo120/Spotify2YoutubeMigration
