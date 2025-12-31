@@ -316,5 +316,3 @@ MIT License
 - **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** - YouTube search
 - **[spotipy](https://spotipy.readthedocs.io/)** - Spotify API
 
-**Perfect for Spotify → YouTube Music migration!** 🎵✨
-```
