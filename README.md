@@ -194,21 +194,40 @@ ytmusicapi + headers_auth.json
 
 ```
 
-🎵 STEP 1/3: Getting Spotify liked songs...
-✅ Found 847 liked songs!
-🎯 MAX_SONGS=10
+🎵 SPOTIFY → YOUTUBE MUSIC PLAYLIST EXPORTER
+======================================================================
+✅ config.json loaded!
+
+🎵 STEP 1/3: Loading Spotify liked songs...
+✅ Connected to Spotify!
+🎯 MAX_SONGS=2
+Loaded: 2 songs...
+✅ Found 2 liked songs!
 
 🔍 STEP 2/3: Finding YouTube links...
-Progress: 10/10 (100.0%)
-✅ 8/10 links found (80.0%)!
-💾 Saved: spotify_liked_songs_10songs.txt
+Processing 2 songs...
+Progress: 2/2 (100.0%)
 
-🎬 STEP 3/3: Creating YouTube Music playlist...
+✅ 2/2 links found!
+💾 Saved: spotify_liked_songs_2songs.txt
+
+🎬 STEP 3/3: Creating playlist...
+✅ headers_auth.json created EXACTLY as requested!
 ✅ Connected to YouTube Music!
-✅ 8 video IDs ready!
-✅ Playlist created! ID: PL9qIzx58Cd...
+✅ 2 video IDs ready!
+Playlist name (Enter='Spotify Liked Songs'): 123
+✅ Playlist created: PLtSxxSc-7JJvVulmGmk...
+
 🎉 SUCCESS!
-📝 'Test Playlist (8)' - 8 songs
+📝 '123' - 2 songs
+🔗 https://music.youtube.com/playlist?list=PLtSxxSc-7JJvVulmGmkBPNe7_9zFKm9Fx
+
+============================================================
+🎉 PLAYLIST READY!
+📱 YouTube Music → Library → Playlists
+🔍 Search: '123'
+📄 Links: spotify_liked_songs_2songs.txt
+============================================================
 
 ```
 
