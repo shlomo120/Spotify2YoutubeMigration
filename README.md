@@ -190,7 +190,7 @@ ytmusicapi + headers_auth.json
 
 **Example run:**
 
-![til](https://raw.githubusercontent.com/shlomo120/Spotify2YoutubeMigration/master/app/assets/images/testrun.gif)
+![til](https://github.com/shlomo120/Spotify2YoutubeMigration/blob/main/testrun.gif)
 
 ```
 
