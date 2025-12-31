@@ -11,7 +11,7 @@ Export your **Spotify Liked Songs** to a **YouTube Music playlist** automaticall
 - ✅ **Spotify Liked Songs** → **YouTube Music playlist** (one-click)
 - 🔍 **`yt-dlp`** finds best matching YouTube videos automatically
 - ⚙️ **config.json** for all credentials (or interactive setup)
-- 🧪 **Test mode** (`max_songs: 10`) for debugging
+- 🧪 **Test mode** (`max_songs`) for debugging
 - 📱 Works with **Authorization + Cookie** (no OAuth hassle)
 
 ## 📦 Quick Start
@@ -62,7 +62,7 @@ python spotify_to_ytmusic.py
     "cookie": ""
   },
   "test_mode": {
-    "max_songs": 10
+    "max_songs": 0
   }
 }
 
